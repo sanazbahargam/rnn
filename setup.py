@@ -11,15 +11,15 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    cachetools==2.0.1
-    scipy==1.0.0
-    numpy==1.13.1
-    nltk==3.2.4
-    tqdm==4.19.4
-    ekphrasis==0.4.10
-    Keras==2.2.0
-    keras_utilities==0.5.0
-    frozendict==1.2
+    'cachetools==2.0.1'
+    'scipy==1.0.0'
+    'numpy==1.13.1'
+    'nltk==3.2.4'
+    'tqdm==4.19.4'
+    'ekphrasis==0.4.10'
+    'Keras==2.2.0'
+    'keras_utilities==0.5.0'
+    'frozendict==1.2'
 ]
 
 test_requirements = [
