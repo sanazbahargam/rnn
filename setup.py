@@ -4,11 +4,7 @@
 
 from setuptools import setup
 
-with open('README.rst') as readme_file:
-    readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
-    history = history_file.read()
 
 requirements = [
     'cachetools==2.0.1'
@@ -33,7 +29,6 @@ setup(
     name='rnn',
     version='1.0.0',
     description="",
-    long_description=readme + '\n\n' + history,
     author="",
     author_email='',
     url='https://github.com/sanazb/datastories-semeval2017-task4/new/master',
