@@ -33,7 +33,7 @@ setup(
     author_email='',
     url='https://github.com/sanazb/datastories-semeval2017-task4/new/master',
     packages=[
-        rnn
+        'rnn'
     ],
     package_dir={'rnn': 'rnn'},
     include_package_data=True,
